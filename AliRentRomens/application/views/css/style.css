@@ -1,0 +1,146 @@
+.containers{
+    width: 100%;
+    height: auto;
+    font-family: "Microsoft YaHei", Helvetica, STHeiTi,"Helvetica Neue","Î¢ÈíÑÅºÚ",SimSun,sans-serif;
+}
+input{
+    border: 0;
+}
+.selbutton{
+	font-size: 18px;
+    margin: 5px auto;
+    width: 100%;
+    text-align: center;
+    background-color: #1d95d5;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.section{
+	display: flex;
+    border-bottom: 1px #f2f2f2 solid;
+    width: 100%;
+    margin: 0px auto;
+    line-height:35px;
+}
+.section-begin{
+    width: 100$;;
+    margin: 0px auto;
+}
+.section-title{
+	font-size:14px;
+	width:50%;
+    background-color:white;
+}
+.sel_input{
+    text-align: right;
+    font-size:14px;
+}
+.picker{
+	width:50%;
+    background-color:white;
+}
+.order-list{
+	font-family: "Microsoft YaHei", Helvetica, STHeiTi,"Helvetica Neue","Î¢ÈíÑÅºÚ",SimSun,sans-serif;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    display: -webkit-box;
+    box-sizing: border-box;
+    align-items: center;
+    -webkit-box-align: center;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+}
+.order-img{
+    box-sizing: border-box;
+    padding: 5px;
+}
+.order-img div{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #e5e5e5;
+}
+.order-img div img{
+    width: 100%;
+    height: 100%;   
+}
+.order-detail{
+    flex: 1;
+    -webkit-box-flex: 1;
+    margin: 0px 10px;
+}
+.order-detail div{
+    line-height: 25px;
+}
+.order-detail div:first-child{
+    font-size: 14px;
+    font-weight: bold;
+}
+.order-detail div:nth-child(2){
+    font-size: 12px;
+    color: #646464;
+}
+.order-detail div:nth-child(3){
+    font-size: 14px;
+    color: #f60;
+}
+.order-detail div:nth-child(4){
+    font-size: 12px;
+    color: #0C87E5;
+}
+.order-detail div:nth-child(5){
+    font-size: 12px;
+    color: #646464;
+}
+.order-i{
+    position: absolute;
+    z-index: 2;
+    right: 10px;
+    top: 20px;
+}
+.order-i image{
+    width: 60px;
+    height: 60px;
+}
+.orderinfo-none{
+	border-radius: 5px;
+	display:none;
+    background-color: wheat;
+    font-size:14px;
+    font-family: "Microsoft YaHei", Helvetica, STHeiTi,"Helvetica Neue","Î¢ÈíÑÅºÚ",SimSun,sans-serif;
+    padding:5px;
+}
+.orderinfo{
+	border-radius: 5px;
+	display:block;
+    background-color: wheat;
+    font-size:14px;
+    font-family: "Microsoft YaHei", Helvetica, STHeiTi,"Helvetica Neue","Î¢ÈíÑÅºÚ",SimSun,sans-serif;
+    padding:5px;
+}
+tr{
+    width:100%;	
+    border-bottom:1px solid white;
+}
+td{
+	padding: 5px;
+    width:50%;
+}
+#con_txt{
+    margin: 0 auto;
+    padding-top: 93px;
+    display: block;
+    width: 74%;
+    height: 272px;
+}
+.z_style{
+    display: flex;
+    height: 73px;
+    height: 63px;
+}
